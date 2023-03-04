@@ -35,7 +35,7 @@ $(function() {
   $('#form_reg').on('submit', function(e) {
     // 1. 阻止默认的提交行为
     e.preventDefault()
-    // 2. 发起Ajax的POST请求
+    // 2. 发起 Ajax 的 POST 请求
     var data = {
       username: $('#form_reg [name=username]').val(),
       password: $('#form_reg [name=password]').val()
